@@ -3,10 +3,30 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/Alltext">All texts</Link>
+      <nav
+        style={{
+          padding: "2%",
+          marginLeft: "2%",
+        }}
+      >
+        <Link
+          to="/"
+          style={{
+            padding: "2%",
+            marginLeft: "2%",
+          }}
+        >
+          Home
+        </Link>
+        <Link
+          to="/Alltext"
+          style={{
+            padding: "2%",
+            marginLeft: "2%",
+          }}
+        >
+          All texts
+        </Link>
       </nav>
     </div>
   );

@@ -7,11 +7,13 @@ import Home from "./components/Nav";
 
 function App() {
   return (
-    <Routes>
+    <>
       <Home />
-      <Route path="/" element={<Textform />} />
-      <Route path="/Alltext" element={<Data />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Textform />} />
+        <Route path="/Alltext" element={<Data />} />
+      </Routes>
+    </>
   );
 }
 
